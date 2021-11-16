@@ -199,7 +199,18 @@ body {
 .salony-text {
   padding: 15px;
 }
-
+.bg-green {
+  background: #365838 !important;
+}
+.color-white {
+  color: white !important;
+}
+.arrow-white {
+    fill: #ffffff !important;
+}
+.title-white {
+  color: rgb(255, 255, 255) !important;
+}
 .pros-items {
   text-align: center;
   display: flex;
@@ -269,6 +280,62 @@ body {
   color: white !important;
   border: 1px solid white !important;
 }
+.kontakt h2 {
+  margin-bottom: 120px;
+}
+.kontakt-img {
+  height: 70vh;
+  margin-top: -100px;
+  margin-left: 30px;
+}
+.kontakt-bg {
+  background: #365838;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 75vh;
+}
+.kontakt-bg h2 {
+  margin-bottom: 0;
+}
+.kontakt-nav-item {
+  text-align: left;
+  
+}
+.kontakt-nav-item h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.kontakt-nav-item h2 p {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.kontakt-main {
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+.kontakt-main h4 {
+  font-size: 18px;
+}
+.kontakt-godziny-otwarcia h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.kontakt-telefon h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.kontakt-godziny-otwarcia h5 {
+  opacity: 0.7;
+  font-size: 14px;
+}
+.kontakt-telefon h5 {
+  opacity: 0.7;
+  font-size: 14px;
+}
 .usługi {
   max-width: 750px;
   width: 100%;
@@ -276,7 +343,16 @@ body {
   margin-right: auto;
   padding: 0 30px;
 }
+.visable {
+  display: block !important;
+  transition: all 0.5s ease;
 
+}
+.hidden {
+  display: none !important;
+  transition: all 0.5s ease;
+
+}
 .vertical {
   writing-mode: vertical-rl;
 text-orientation: mixed;
@@ -320,16 +396,13 @@ font-size: 30px;
 }
 
 .accordion-item > .title {
-  display: -webkit-box;
-  display: -ms-flexbox;
+color: black;
   display: flex;
   margin: 0;
   padding: 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
+
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
+
           align-items: center;
   line-height: 1;
   cursor: pointer;
@@ -354,14 +427,41 @@ font-size: 30px;
   margin-bottom: 0;
 }
 
+.underline {
+  cursor: pointer;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.underline:hover {
+  color: #000;
+}
+
+.underline::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.3s ease;
+}
+
+.underline:hover::before {
+  transform: scaleX(1);
+}
+
+
 .table {
   margin-top: 30px;
 }
 
-tr:nth-child(even) {
-  color: white;
-  background: #365838;
-}
+
 
 @media (max-width: 360px) {
   .wrapper {
@@ -383,6 +483,9 @@ tr:nth-child(even) {
   .vertical {
     font-size: 22px;
   }
+  .kontakt-img {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -399,7 +502,33 @@ tr:nth-child(even) {
     width: 18%;
     left: 41%;
   }
+  .kontakt-img {
+    height: 50vh;
+  }
+  .kontakt-bg {
+    height: 60vh;
+  }
 }
+
+@media (max-width: 767px) {
+  .kontakt-nav-item {
+    display: flex;
+  }
+  .selection {
+    display: flex;
+    flex-direction: row;
+  }
+  .kontakt-nav-item h2 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .overflow {
+    overflow:hidden;
+  }
+}
+
 
 @media (min-width: 601px) and (max-width: 991px) {
   .height-res {
@@ -413,6 +542,13 @@ tr:nth-child(even) {
     left: 43%;
   }
 }
+
+@media (min-width: 601px) and (max-width: 767px) {
+  .kontakt-bg {
+    height: 60vh;
+  }
+}
+
 
 @media (min-width: 992px) {
   .main-logo {

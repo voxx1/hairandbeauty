@@ -1,6 +1,3 @@
-
-
-
 // stagger items
 gsap.fromTo('.accordion-item', {autoAlpha: 0, scale: 0.9}, {duration: 1, autoAlpha: 1, scale: 1, ease: Power1.easeInOut, stagger: .05});
 
@@ -80,3 +77,22 @@ accordionItems.forEach(itemAccordion => {
 })
 
 AOS.init();
+
+
+  $(function() {
+    $('.clickable1').click(function() { 
+        $('.salon1').addClass('visable')
+        $('.salon1').removeClass('hidden')
+        $('.salon2').addClass('hidden')
+      })
+  })
+
+
+  $(function() {
+    $('.clickable2').click(function() { 
+        $('.salon2').removeClass('hidden')
+        $('.salon2').addClass('visable')
+        $('.salon1').addClass('hidden')
+      })
+  })
+
