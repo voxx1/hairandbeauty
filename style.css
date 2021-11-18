@@ -736,6 +736,9 @@ body {
   .navbar-toggler {
     display: none !important;
   }
+  .menu-margin {
+    margin-top: -70px;
+  }
   .container-fluid {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
