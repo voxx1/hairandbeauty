@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -6,7 +7,7 @@
 }
 
 body {
-  font-family: "Cardo" !important;
+  font-family: 'Cormorant Garamond', serif !important;
   color: black;
 }
 
@@ -21,7 +22,13 @@ body {
 .height-gal {
   height: 70vh;
 }
-
+.text-beg {
+  text-align: start;
+}
+.text-fin {
+  text-align: end;
+  padding-left: 0;
+}
 .nav-link {
   position: relative;
   color: #365838;
@@ -296,6 +303,12 @@ body {
   font-weight: bold;
 }
 
+.container-spinner {
+  margin: auto 0;
+    padding: 150px 0;
+    background: #365838;
+}
+
 .salony-title {
   margin: 20px;
 }
@@ -370,6 +383,10 @@ body {
   margin: 0 auto;
   font-size: 1.5rem;
   padding: 0 15px;
+}
+.para-height h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .img1 {
@@ -642,6 +659,16 @@ body {
   }
   .kontakt-img {
     margin-left: 0px;
+  }
+  .text-beg {
+    text-align: center;
+  }
+  .text-fin {
+    text-align: center;
+    padding-left: 1rem;
+  }
+  .container-spinner {
+          padding: 100px 0;
   }
 }
 
