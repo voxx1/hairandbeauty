@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://voxx1.github.io/hairandbeauty/sitemap.xml
