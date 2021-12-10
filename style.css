@@ -31,12 +31,12 @@ body {
 }
 .nav-link {
   position: relative;
-  color: #365838;
+  color:   #3f4b47;
   text-decoration: none;
 }
 
 .nav-link:hover {
-  color: #365838;
+  color:   #3f4b47;
   font-weight: bold;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -52,7 +52,7 @@ body {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #365838;
+  background-color:   #3f4b47;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
   -webkit-transition: -webkit-transform 0.3s ease;
@@ -67,7 +67,6 @@ body {
 }
 
 .parallax {
-  -o-object-fit: cover;
   object-fit: cover;
   background-position: center;
   background-size: cover;
@@ -167,7 +166,7 @@ body {
 }
 
 .active {
-  color: #365838 !important;
+  color:   #3f4b47 !important;
   font-weight: 500;
   font-size: 19px;
 }
@@ -178,7 +177,7 @@ body {
 
 .navbar-toggler {
   margin: 20px auto 40px auto;
-  border: 2px solid #365838 !important;
+  border: 2px solid   #3f4b47 !important;
   display: block;
 }
 
@@ -213,7 +212,7 @@ body {
 
 .icons i {
   margin: 15px 10px;
-  color: #365838;
+  color:   #3f4b47;
 }
 
 .icon {
@@ -243,11 +242,11 @@ body {
 
 .footer-icons a {
   margin: 0 20px;
-  color: #365838;
+  color:   #3f4b47;
 }
 
 .footer-icons i:hover {
-  color: #365838;
+  color:   #3f4b47;
 }
 
 .footer-icon {
@@ -306,7 +305,7 @@ body {
 .container-spinner {
   margin: auto 0;
     padding: 150px 0;
-    background: #365838;
+    background:   #3f4b47;
 }
 
 .salony-title {
@@ -318,7 +317,7 @@ body {
 }
 
 .bg-green {
-  background: #365838 !important;
+  background:   #3f4b47 !important;
 }
 
 .color-white {
@@ -345,12 +344,12 @@ body {
   margin: 20px;
   margin-bottom: 60px !important;
   color: white;
-  background: #365838;
+  background:   #3f4b47;
 }
 
 .pros-items .reverse {
   background: white;
-  color: #365838;
+  color:   #3f4b47;
   padding: 40px;
 }
 
@@ -367,13 +366,10 @@ body {
 }
 
 .para {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .para-height {
@@ -382,26 +378,31 @@ body {
   color: white;
   margin: 0 auto;
   font-size: 1.5rem;
-  padding: 0 15px;
+  background: #3f4b47;
+  padding: 15px;
+  opacity: 0.85;
 }
 .para-height h5 {
   font-size: 1.5rem;
   font-weight: bold;
 }
+.para-height p {
+  margin-bottom: 0;
+}
 
-.img1 {
-  background-image: url("images/slider4.jpg");
-  height: 300px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  background-position: center;
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 400px;
   background-size: cover;
-  margin: 100px 0 !important;
+  background-position-x: center;
 }
 
 .sklep-img {
   max-width: 100%;
-  height: auto;
+  max-height: 700px;
 }
 
 .sklep {
@@ -409,7 +410,7 @@ body {
 }
 
 .sklep-btn {
-  background: #365838 !important;
+  background:   #3f4b47 !important;
   color: white !important;
   border: 1px solid white !important;
 }
@@ -425,7 +426,7 @@ body {
 }
 
 .kontakt-bg {
-  background: #365838;
+  background:   #3f4b47;
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -545,7 +546,7 @@ body {
 }
 
 .author-color:hover {
-  color: #365838 !important;
+  color:   #3f4b47 !important;
 }
 
 .accordion-item {
@@ -575,11 +576,12 @@ body {
   line-height: 1;
   cursor: pointer;
   font-size: 24px;
+  text-transform: uppercase;
   font-weight: 400;
 }
 
 .accordion-item > .title > .arrow {
-  fill: #365838;
+  fill:   #3f4b47;
 }
 
 .accordion-item > .content {
@@ -594,7 +596,9 @@ body {
 .accordion-item > .content > .entry p:last-of-type, .accordion-item > .content > .entry p:last-child {
   margin-bottom: 0;
 }
-
+.margin-table-item {
+  margin-left: 3rem;
+}
 .underline {
   cursor: pointer;
   position: relative;
@@ -641,7 +645,7 @@ body {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .icons {
     display: none;
   }
@@ -670,6 +674,12 @@ body {
   .container-spinner {
           padding: 100px 0;
   }
+  .sklep-img {
+    height: auto;
+  }
+  .para {
+    background-attachment: inherit;
+}
 }
 
 @media (max-width: 600px) {
@@ -691,6 +701,9 @@ body {
   }
   .kontakt-bg {
     height: 95vh;
+  }
+  .margin-table-item {
+    margin-left: 1rem;
   }
 }
 
