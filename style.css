@@ -29,6 +29,10 @@ body {
   text-align: end;
   padding-left: 0;
 }
+.team-img {
+  width: 80%;
+  height: auto;
+}
 .nav-link {
   position: relative;
   color:   #3f4b47;
@@ -349,7 +353,7 @@ body {
 
 .pros-items .reverse {
   background: white;
-  color:   #3f4b47;
+  color:   #000000;
   padding: 40px;
 }
 
@@ -402,9 +406,12 @@ body {
 
 .sklep-img {
   max-width: 100%;
-  max-height: 700px;
+  max-height: 600px;
 }
-
+.icon-img {
+  height: 70px;
+  width: 80px;
+}
 .sklep {
   margin-top: 80px;
 }
@@ -670,6 +677,9 @@ body {
   .text-fin {
     text-align: center;
     padding-left: 1rem;
+  }
+  .team-img {
+    width: 100%;
   }
   .container-spinner {
           padding: 100px 0;
