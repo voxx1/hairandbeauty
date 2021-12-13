@@ -20,7 +20,7 @@ body {
 }
 
 .height-gal {
-  height: 70vh;
+  height: 75vh;
 }
 .text-beg {
   text-align: start;
@@ -697,7 +697,7 @@ body {
     height: 50vh;
   }
   .height-gal {
-    height: 50vh;
+    height: 55vh;
   }
   .title {
     font-size: 16px !important;
@@ -756,7 +756,7 @@ body {
     height: 60vh;
   }
   .height-gal {
-    height: 60vh;
+    height: 65vh;
   }
   .nav-link::before {
     width: 15%;
