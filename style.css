@@ -261,7 +261,10 @@ body {
   border-radius: 25%;
   margin: 0 3px;
 }
-
+.booksy-icon {
+  height: auto;
+  width: 250px;
+}
 .zoom {
   -webkit-animation: zoom 5s infinite;
           animation: zoom 5s infinite;
@@ -706,7 +709,7 @@ body {
     height: 50vh;
   }
   .height-gal {
-    height: 55vh;
+    height: 45vh;
   }
   .title {
     font-size: 16px !important;
