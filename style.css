@@ -32,6 +32,9 @@ p {
   text-align: end;
   padding-left: 0;
 }
+.text-justify {
+  text-align: justify !important;
+}
 .team-img {
   width: 80%;
   height: auto;
