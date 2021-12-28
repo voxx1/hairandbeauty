@@ -13,6 +13,7 @@ body {
 
 p {
   line-height: normal;
+  font-size: 17px;
 }
 .container-fluid {
   overflow: hidden;
@@ -306,7 +307,7 @@ p {
 }
 
 .section-title {
-  margin: 40px 0;
+  margin: 20px 0 30px 0;
   text-align: center;
   font-size: 38px;
   background: white;
@@ -328,7 +329,7 @@ p {
 }
 
 .salony-text {
-  padding: 15px;
+  padding: 17px;
 }
 
 .bg-green {
@@ -357,7 +358,6 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 20px;
-  margin-bottom: 60px !important;
   color: white;
   background:   #3f4b47;
 }
@@ -424,7 +424,7 @@ p {
   width: 80px;
 }
 .sklep {
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .sklep-btn {
@@ -545,7 +545,7 @@ p {
   padding: 0 30px;
   font-family: "Open Sans",Verdana,Tahoma,sans-serif;
   letter-spacing: 2px;
-  font-size: 11px;
+  font-size: 11px !important;
   margin-top: 70px;
   margin-bottom: 80px;
 }
@@ -561,6 +561,8 @@ p {
 
 .author p {
   margin-top: 10px;
+  font-size: 11px !important;
+
 }
 
 .author-color:hover {
