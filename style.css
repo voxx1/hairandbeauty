@@ -88,6 +88,9 @@ p {
 
 .aleja-height {
   height: 60vh;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .box {
   -ms-flex-item-align: end;
@@ -438,7 +441,7 @@ p {
 }
 
 .kontakt h2 {
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .kontakt-img {
@@ -744,6 +747,12 @@ p {
   }
   .height-fryz {
     height: 50vh !important;
+  }
+  .kontakt h2 {
+    margin-bottom: 20px;
+  }
+  .salon1 {
+    margin-top: 80px !important;
   }
 }
 
