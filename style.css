@@ -85,6 +85,10 @@ p {
 .height-fryz {
   height: 60vh;
 }
+
+.aleja-height {
+  height: 60vh;
+}
 .box {
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -734,6 +738,12 @@ p {
   }
   .margin-table-item {
     margin-left: 1rem;
+  }
+  .aleja-height {
+    height: 50vh !important;
+  }
+  .height-fryz {
+    height: 50vh !important;
   }
 }
 
