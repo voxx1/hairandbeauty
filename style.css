@@ -440,9 +440,7 @@ p {
   border: 1px solid white !important;
 }
 
-.kontakt h2 {
-  margin-bottom: 100px;
-}
+
 
 .kontakt-img {
   height: 70vh;
@@ -455,7 +453,6 @@ p {
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 3rem !important;
   height: 80vh;
   text-align: left;
 }
@@ -736,9 +733,7 @@ p {
   .kontakt-img {
     height: 50vh;
   }
-  .kontakt-bg {
-    height: 95vh;
-  }
+
   .margin-table-item {
     margin-left: 1rem;
   }
