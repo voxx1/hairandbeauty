@@ -327,7 +327,7 @@ p {
 
 .container-spinner {
   margin: auto 0;
-    padding: 150px 0;
+    padding: 80px 0;
     background:   #3f4b47;
 }
 
@@ -453,7 +453,7 @@ p {
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 80vh;
+  height: 70vh;
   text-align: left;
 }
 
@@ -706,7 +706,7 @@ p {
     width: 100%;
   }
   .container-spinner {
-          padding: 100px 0;
+          padding: 75px 0;
   }
   .sklep-img {
     height: auto;
