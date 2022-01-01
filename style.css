@@ -84,6 +84,7 @@ p {
 }
 .height-fryz {
   height: 60vh;
+  object-fit: contain;
 }
 
 .aleja-height {
@@ -186,7 +187,7 @@ p {
 }
 
 .active {
-  color:   #3f4b47 !important;
+  color:   #000000 !important;
   font-weight: 500;
   font-size: 19px;
 }
